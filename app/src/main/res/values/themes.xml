@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window theme used only until Compose draws the first frame. -->
+    <!-- Real colours live in config/ThemeConfig.kt. -->
+    <color name="window_background">#FFF6F6F3</color>
+    <color name="launcher_background">#FF4F46E5</color>
+
+    <style name="Theme.MindMath" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

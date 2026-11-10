@@ -1,0 +1,20 @@
+# Gradle / build output
+.gradle/
+build/
+app/build/
+.kotlin/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Release signing key: never commit it, but DO back it up (see README.md)
+keystore/
+
+# OS files
+.DS_Store
+Thumbs.db
